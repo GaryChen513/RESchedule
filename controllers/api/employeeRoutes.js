@@ -7,10 +7,12 @@ router.post('/', async (req, res) => {
 
 		req.session.save(() => {
 			(req.session.employee_id = employeeData.id),
-				(req.session.logged_in = true);
+			(req.session.logged_in = true);
+
+			res.status(200).json(employeeData);
 		});
 
-		res.status(200).json(employeeData);
+		
 	} catch (err) {
 		res.status(400).json(err);
 	}
