@@ -18,7 +18,7 @@
   
 
 ## Description
-ℹ️ Interactive CMS Weekly Work Scheduler for Managers and casual/contract employees
+ℹ️ Interactive CMS Weekly Work Scheduler for Managers and casual/contract employees. The application is [here] ( https://calm-wave-41336.herokuapp.com/)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
